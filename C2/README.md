@@ -22,17 +22,22 @@ By the end of this workshop, you'll be able to:
 ***
 #### **📝 Pre-Practical Preparation**
 
-Before starting, please answer these questions to connect the workshop with your lecture material on bonding and coordination chemistry.
+These are **warm-up questions, not a test** — this workshop runs *before* much of the related lecture material, so each question below comes with the background you need. Have a go; the notebooks then let you explore each idea hands-on, and you'll meet them again, in more depth, in lectures. (The full theory is also taught inside the notebooks themselves.)
 
-1. Define a **bonding** and an **antibonding** molecular orbital. What is a **node**, and how does it relate to the energy of an orbital?
+1. **Molecular orbitals.** When two atomic orbitals combine, they make two molecular orbitals: a **bonding** one (lower energy, electron density builds up *between* the nuclei) and an **antibonding** one (higher energy, with a **node** — a surface of zero electron density — *between* the nuclei). More nodes generally means higher energy.
+   *Question:* In your own words, what is the difference between a bonding and an antibonding orbital, and where is the node in the antibonding case?
 
-2. Write down the formula for **bond order**. What does a higher bond order tell you about the **strength** and **length** of a bond?
+2. **Bond order.** Bond order is calculated as $\tfrac{1}{2}(\text{bonding electrons} - \text{antibonding electrons})$. It tells you how many *net* bonds hold the molecule together.
+   *Question:* Write down the formula, then state what a *higher* bond order implies about the **strength** and **length** of a bond.
 
-3. Define **paramagnetic** and **diamagnetic**. How can you tell which one a species is from its electron configuration?
+3. **Magnetism.** A species with one or more **unpaired** electrons is **paramagnetic** (weakly attracted to a magnet); one with all electrons **paired** is **diamagnetic**.
+   *Question:* How would you decide, from an electron configuration, whether a species is paramagnetic or diamagnetic?
 
-4. In an **octahedral** complex, the six ligands lie on the *x*, *y* and *z* axes. Which of the five *d* orbitals point **directly at** the ligands, and which point **between** them? Name the **$t_{2g}$** and **$e_g$** sets.
+4. **d orbitals in a complex.** A transition metal has five *d* orbitals. In an **octahedral** complex the six ligands sit on the *x*, *y* and *z* axes. Two *d* orbitals point *along* the axes (the **$e_g$** set) and three point *between* the axes (the **$t_{2g}$** set).
+   *Question:* Which two *d* orbitals make up the $e_g$ set (the ones pointing straight at the ligands)? *(You'll see all five in 3D in notebook 3.)*
 
-5. Explain the difference between a **high-spin** and a **low-spin** complex. What two quantities are compared to decide which one forms?
+5. **High vs low spin.** Once the *d* orbitals split by an energy gap $\Delta_o$, electrons either spread out to avoid pairing (**high spin**) or pile into the lower set and pair up (**low spin**). Which happens is a contest between $\Delta_o$ and the **pairing energy** $P$ (the cost of putting two electrons in one orbital).
+   *Question:* In one sentence, what two quantities are compared to decide whether a complex is high- or low-spin?
 
 ***
 #### **📓 Practical Materials**

@@ -22,17 +22,22 @@ By the end of this workshop, you'll be able to:
 ***
 #### **📝 Pre-Practical Preparation**
 
-Before starting, please answer these questions to connect the workshop with your lecture material on thermodynamics and statistical mechanics.
+These are **warm-up questions, not a test** — this workshop runs *before* much of the related lecture material, so each question below comes with the background you need. Have a go at them; the notebooks then let you explore each idea hands-on, and you'll meet them again, in more depth, in lectures. (The full theory is also taught inside the notebooks themselves.)
 
-1.  For the planned simulation of liquid argon in a box, identify the thermodynamic **system** and its **surroundings**. Also, provide an example of a **state variable** (or state function) that will be monitored during the simulation.
+1.  **System, surroundings and state variables.** In thermodynamics we split the universe into the **system** (the part we study) and the **surroundings** (everything else). A **state variable** (or *state function*) is a property that describes the system's current condition — like its temperature, volume or energy — regardless of how it got there.
+    *Question:* For our simulation of argon atoms in a box, what is the **system** and what is the **surroundings**? Name one **state variable** we could monitor as it runs.
 
-2.  Our simulation uses a thermostat to maintain a constant temperature, allowing energy exchange with a virtual "heat bath". Is this system best described as open, closed, or isolated? Justify your answer.
+2.  **Open, closed or isolated.** A system is **open** if it can exchange both matter and energy with its surroundings, **closed** if it exchanges energy but not matter, and **isolated** if it exchanges neither.
+    *Question:* Our box has a fixed number of atoms but uses a *thermostat* that lets energy flow to and from a virtual "heat bath". Is this system open, closed, or isolated? Briefly justify your choice.
 
-3.  Define **heat capacity**. Explain the difference between heat capacity at constant volume ($C_v$) and constant pressure ($C_p$). Based on the simulation setup (a sealed box with fixed dimensions), which of these two will we be calculating?
+3.  **Heat capacity.** Heat capacity measures how much energy you must add to raise a substance's temperature by 1 K — a substance with a *high* heat capacity needs a lot of energy for a small temperature rise. It is measured either at constant volume ($C_v$) or constant pressure ($C_p$); they differ because at constant pressure some added energy also does work by expanding the substance.
+    *Question:* Our box is **sealed with fixed dimensions** (constant volume). Which of $C_v$ or $C_p$ will we be calculating, and why?
 
-4.  Explain the relationship between the average kinetic energy of the argon atoms and the macroscopic **temperature** of the system. Which fundamental principle of statistical mechanics formalizes this connection?
+4.  **Temperature and motion.** Temperature is really a measure of the **average kinetic energy** of the atoms — hotter means they move faster on average. (The principle that pins this down quantitatively, the *equipartition theorem*, is explained in notebook 2 and developed in lectures.)
+    *Question:* In one sentence, describe the link between how fast the argon atoms move and the temperature you would measure.
 
-5.  The interactions between argon atoms in this simulation are modeled by a **Lennard-Jones potential**. Briefly describe what this potential represents, including the physical meaning of its attractive ($r^{-6}$) and repulsive ($r^{-12}$) terms at the atomic level. 
+5.  **The Lennard-Jones potential.** Atoms attract each other weakly at long range (van der Waals forces, the $r^{-6}$ term) but repel very strongly when pushed too close together, because their electron clouds overlap (the $r^{-12}$ term). The Lennard-Jones potential combines these into one simple equation for the energy between two atoms.
+    *Question:* In your own words, what does each of the two terms ($r^{-6}$ attraction and $r^{-12}$ repulsion) represent physically?
 
 ***
 #### **📓 Practical Materials**
