@@ -42,6 +42,21 @@ This workshop is divided into three parts. Please complete the Jupyter Notebooks
 * **`02_RunMD.ipynb`**: Add the laws of physics to our system using a force field, run a molecular dynamics simulation to model atomic motion, and check that the system reaches equilibrium.
 * **`03-Analysis.ipynb`**: Analyze the data from your simulation to calculate the constant volume heat capacity (C_v) of argon and compare it to the experimental value.
 
+Each notebook contains guided explanations, **🔧 hands-on exercises** (predict-then-check), and **💭 reflection** prompts, with **⏱️ time markers** on each section.
+
+> **⚠️ Transferring files between Part 2 and Part 3:** Google Colab runs each notebook in its own session. At the **end of `02_RunMD.ipynb`** you must **download** the `md.log` and `md.traj` files it produces, and at the **start of `03-Analysis.ipynb`** **upload** them again. Both notebooks include a cell to do this.
+
+***
+##### **⏱️ Instructor Pacing Guide (~4-hour session)**
+| Part | Notebook | Approx. time |
+|---|---|---|
+| 1 | `01_SystemSetup.ipynb` | ~50 min |
+| 2 | `02_RunMD.ipynb` | ~80 min (incl. short thermostat experiments) |
+| 3 | `03-Analysis.ipynb` | ~45 min |
+| | Pre-practical + reporting write-up | ~45 min |
+
+Core content runs in ~3 h; the hands-on exercises (Exercises 1.A, 2.A, 2.B, 3.A) and reflection prompts take it to ~4 h. All extra MD runs are deliberately short (≈2000 steps) to keep the session moving on a free Colab CPU runtime.
+
 ***
 ##### **💻 Additional Materials & Software**
 The notebooks use Python with several key scientific libraries, all of which are pre-installed in the Google Colab environment:

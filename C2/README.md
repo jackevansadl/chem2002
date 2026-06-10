@@ -42,6 +42,21 @@ This workshop is divided into three parts. Please complete the Jupyter Notebooks
 * **`02_MO_Diagrams_N2_O2.ipynb`**: Build molecular-orbital energy-level diagrams for N$_2$ and O$_2$, read off the bond order, and explain why O$_2$ is magnetic — something Lewis structures get wrong.
 * **`03_Crystal_Field_TM_Complexes.ipynb`**: Apply these ideas to transition-metal complexes. See how the *d* orbitals split in an octahedral field, and how that splitting controls colour (high/low spin) and magnetism.
 
+Each notebook contains guided explanations, **🔧 hands-on exercises** (predict-then-check), and **💭 reflection** prompts, with **⏱️ time markers** on each section.
+
+> **📚 A note on theory:** notebook 3 uses **Crystal Field Theory** (ligands treated as point charges) as an accessible first model. In your CHEM 2002 lectures this is extended to **Ligand Field Theory**, which also includes the covalent overlap between metal and ligand orbitals — the same $t_{2g}/e_g$ splitting, explained more fully.
+
+***
+##### **⏱️ Instructor Pacing Guide (~4-hour session)**
+| Part | Notebook | Approx. time |
+|---|---|---|
+| 1 | `01_Atoms_to_Orbitals.ipynb` | ~60 min |
+| 2 | `02_MO_Diagrams_N2_O2.ipynb` | ~70 min |
+| 3 | `03_Crystal_Field_TM_Complexes.ipynb` | ~75 min (+ optional ~5 min DFT run) |
+| | Pre-practical + reporting write-up | ~35 min |
+
+Core content runs in ~3.5 h; the hands-on exercises and reflection prompts fill the ~4 h. Every calculation (apart from the clearly-labelled optional DFT bonus) runs in well under a second on a free Colab CPU runtime.
+
 ***
 ##### **💻 Additional Materials & Software**
 The notebooks use Python with several scientific libraries, all of which install automatically in the first cell on Google Colab:
