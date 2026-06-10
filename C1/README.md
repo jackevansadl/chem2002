@@ -1,6 +1,13 @@
 ***
 # C1: Foundations of Computational Chemistry
 
+> **Run on Google Colab (no installation required):**
+> | Notebook | Open in Colab |
+> |---|---|
+> | `01_SystemSetup.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jackevansadl/chem2002/blob/main/C1/01_SystemSetup.ipynb) |
+> | `02_RunMD.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jackevansadl/chem2002/blob/main/C1/02_RunMD.ipynb) |
+> | `03-Analysis.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jackevansadl/chem2002/blob/main/C1/03-Analysis.ipynb) |
+
 Welcome to the first computational chemistry workshop for CHEM 2002 Physical and Inorganic Chemistry 2! Ever wondered what molecules actually do in a liquid? This session is designed to make the abstract principles of thermodynamics tangible by simulating molecular motion right on your computer. You'll build a system of argon atoms, watch them move, and calculate a real thermodynamic property from their behavior.
 
 ***
@@ -31,8 +38,8 @@ Before starting, please answer these questions to connect the workshop with your
 #### **📓 Practical Materials**
 This workshop is divided into three parts. Please complete the Jupyter Notebooks in the following order:
 
-* **`01-SystemSetup.ipynb`**: Learn to build a 3D model of a molecule from a text string and construct the cubic simulation box of Argon atoms that will serve as our system.
-* **`02-RunMD.ipynb`**: Add the laws of physics to our system using a force field, run a molecular dynamics simulation to model atomic motion, and check that the system reaches equilibrium.
+* **`01_SystemSetup.ipynb`**: Learn to build a 3D model of a molecule from a text string and construct the cubic simulation box of Argon atoms that will serve as our system.
+* **`02_RunMD.ipynb`**: Add the laws of physics to our system using a force field, run a molecular dynamics simulation to model atomic motion, and check that the system reaches equilibrium.
 * **`03-Analysis.ipynb`**: Analyze the data from your simulation to calculate the constant volume heat capacity (C_v) of argon and compare it to the experimental value.
 
 ***
@@ -40,7 +47,7 @@ This workshop is divided into three parts. Please complete the Jupyter Notebooks
 The notebooks use Python with several key scientific libraries, all of which are pre-installed in the Google Colab environment:
 * **Atomic Simulation Environment (ASE):** For setting up and running simulations.
 * **NumPy & Matplotlib:** For numerical analysis and plotting.
-* **nglview:** For 3D visualization of atomic structures and trajectories within the notebook.
+* **py3Dmol:** For interactive 3D visualization of molecular structures within the notebook.
 * **RDKit:** For generating and visualizing simple 2D molecular structures.
 
 You are also encouraged to download Avogadro, a free, powerful molecular editor. It's a great tool for visualizing molecules and chemical data outside of a notebook.
@@ -49,12 +56,12 @@ You are also encouraged to download Avogadro, a free, powerful molecular editor.
 #### **📋 Practical Reporting**
 As you work through the notebooks, you will be prompted to answer several questions and generate data. Here is a summary of the tasks for your workbook.
 
-1.  **From `01-SystemSetup.ipynb`:**
+1.  **From `01_SystemSetup.ipynb`:**
     * What is the SMILES string for ethanol?
     * Include the 2D image and a screenshot of the 3D structure of ethanol.
     * Report the final dimensions and volume of the argon simulation box and your calculated density.
 
-2.  **From `02-RunMD.ipynb`:**
+2.  **From `02_RunMD.ipynb`:**
     * Modify the argon simulation box generation code to produce the correct density at 100 K and 40 bar.
     * From the Lennard-Jones potential plot, estimate the distance (r) of minimum potential energy and explain its physical meaning.
     * Describe what the potential represents at very short interatomic distances.
