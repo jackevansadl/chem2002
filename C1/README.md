@@ -22,22 +22,15 @@ By the end of this workshop, you'll be able to:
 ***
 #### **📝 Pre-Practical Preparation**
 
-These are **warm-up questions, not a test** — this workshop runs *before* much of the related lecture material, so each question below comes with the background you need. Have a go at them; the notebooks then let you explore each idea hands-on, and you'll meet them again, in more depth, in lectures. (The full theory is also taught inside the notebooks themselves.)
+Before the workshop, complete the **C1 Pre-Practical Readiness Check** on Canvas — a short, auto-graded warm-up (not a test). It runs *before* the related lectures, so every question carries the background you need, and all of these ideas are taught from scratch inside the notebooks. It covers:
 
-1.  **System, surroundings and state variables.** In thermodynamics we split the universe into the **system** (the part we study) and the **surroundings** (everything else). A **state variable** (or *state function*) is a property that describes the system's current condition — like its temperature, volume or energy — regardless of how it got there.
-    *Question:* For our simulation of argon atoms in a box, what is the **system** and what is the **surroundings**? Name one **state variable** we could monitor as it runs.
+* **System, surroundings & state variables** — what we study versus everything else.
+* **Open / closed / isolated systems** — classifying our thermostatted box.
+* **Heat capacity** — $C_v$ versus $C_p$, and why our fixed-volume box gives $C_v$.
+* **Temperature & kinetic energy** — the equipartition idea.
+* **The Lennard-Jones potential** — long-range attraction ($r^{-6}$) and short-range repulsion ($r^{-12}$).
 
-2.  **Open, closed or isolated.** A system is **open** if it can exchange both matter and energy with its surroundings, **closed** if it exchanges energy but not matter, and **isolated** if it exchanges neither.
-    *Question:* Our box has a fixed number of atoms but uses a *thermostat* that lets energy flow to and from a virtual "heat bath". Is this system open, closed, or isolated? Briefly justify your choice.
-
-3.  **Heat capacity.** Heat capacity measures how much energy you must add to raise a substance's temperature by 1 K — a substance with a *high* heat capacity needs a lot of energy for a small temperature rise. It is measured either at constant volume ($C_v$) or constant pressure ($C_p$); they differ because at constant pressure some added energy also does work by expanding the substance.
-    *Question:* Our box is **sealed with fixed dimensions** (constant volume). Which of $C_v$ or $C_p$ will we be calculating, and why?
-
-4.  **Temperature and motion.** Temperature is really a measure of the **average kinetic energy** of the atoms — hotter means they move faster on average. (The principle that pins this down quantitatively, the *equipartition theorem*, is explained in notebook 2 and developed in lectures.)
-    *Question:* In one sentence, describe the link between how fast the argon atoms move and the temperature you would measure.
-
-5.  **The Lennard-Jones potential.** Atoms attract each other weakly at long range (van der Waals forces, the $r^{-6}$ term) but repel very strongly when pushed too close together, because their electron clouds overlap (the $r^{-12}$ term). The Lennard-Jones potential combines these into one simple equation for the energy between two atoms.
-    *Question:* In your own words, what does each of the two terms ($r^{-6}$ attraction and $r^{-12}$ repulsion) represent physically?
+> 📋 The quiz is in [`canvas-quizzes/`](../canvas-quizzes/) (`C1_prepractical_quiz`) as an importable Canvas QTI package, with editable source.
 
 ***
 #### **📓 Practical Materials**
